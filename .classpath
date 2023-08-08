@@ -11,7 +11,11 @@
 	<classpathentry kind="src" path="actions"/>
 	<classpathentry kind="src" path="interface"/>
 	<classpathentry kind="src" path="resources"/>
-	<classpathentry kind="lib" path="libraries/selenium-server-4.10.0.jar"/>
+	<classpathentry kind="lib" path="libraries/selenium-server-4.10.0.jar" sourcepath="/Selenium - java - testng/libraries/client-combined-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://docs.oracle.com/en/java/javase/11/docs/api/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="libraries/testng-6.14.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
