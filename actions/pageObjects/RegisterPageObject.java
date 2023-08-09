@@ -24,8 +24,8 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public String getErrorMessageAtLastnameTextbox() {
-		waitForElementVisible(driver, RegisterPageUI.lASTNAME_ERROR_MESSAGE);
-		return getElementText(driver, RegisterPageUI.lASTNAME_ERROR_MESSAGE);
+		waitForElementVisible(driver, RegisterPageUI.LASTNAME_ERROR_MESSAGE);
+		return getElementText(driver, RegisterPageUI.LASTNAME_ERROR_MESSAGE);
 		
 	}
 
