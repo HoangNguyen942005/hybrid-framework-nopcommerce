@@ -13,7 +13,7 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public void clickToRegisterButton() {
-		waitForElementClickable(driver, RegisterPageUI.REGISTER_BUTTON);
+		waitForElementClickAble(driver, RegisterPageUI.REGISTER_BUTTON);
 		clickToElement(driver, RegisterPageUI.REGISTER_BUTTON);
 	}
 
@@ -26,7 +26,7 @@ public class RegisterPageObject extends BasePage {
 	public String getErrorMessageAtLastnameTextbox() {
 		waitForElementVisible(driver, RegisterPageUI.LASTNAME_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.LASTNAME_ERROR_MESSAGE);
-		
+
 	}
 
 	public String getErrorMessageAtEmailTextbox() {
@@ -73,20 +73,21 @@ public class RegisterPageObject extends BasePage {
 	}
 
 	public String getRegisterSuccessMessage() {
-		waitForElementClickable(driver, RegisterPageUI.REGISTER_SUCCESS_MESSAGE);
+		waitForElementClickAble(driver, RegisterPageUI.REGISTER_SUCCESS_MESSAGE);
 		return getElementText(driver, RegisterPageUI.REGISTER_SUCCESS_MESSAGE);
 
 	}
-	
-public void clickToLogoutLink() {
-	waitForElementClickable(driver, RegisterPageUI.LOGOUT_LINK);
-	getElementText(driver, RegisterPageUI.LOGOUT_LINK);
-		
+
+	public void clickToLogoutLink() {
+		waitForElementClickAble(driver, RegisterPageUI.LOGOUT_LINK);
+		getElementText(driver, RegisterPageUI.LOGOUT_LINK);
+
 	}
 
 	public String getErrorExistingEmailMessage() {
-		waitForElementClickable(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
+		waitForElementClickAble(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
 		return getElementText(driver, RegisterPageUI.EXISTING_EMAIL_ERROR_MESSAGE);
 
 	}
+
 }
