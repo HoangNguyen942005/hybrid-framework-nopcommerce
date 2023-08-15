@@ -1,6 +1,7 @@
 package commons;
 
 import java.time.Duration;
+import java.util.Random;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,7 +29,12 @@ public class BaseTest {
 		}
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://demo.nopcommerce.com/");
+		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
+	}
+	
+	public int generateFakeNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
 	}
 }

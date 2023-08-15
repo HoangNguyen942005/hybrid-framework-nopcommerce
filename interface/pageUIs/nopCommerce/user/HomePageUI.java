@@ -1,4 +1,4 @@
-package pageUIs;
+package pageUIs.nopCommerce.user;
 
 public class HomePageUI {
 	// Biến constant : hằng số 

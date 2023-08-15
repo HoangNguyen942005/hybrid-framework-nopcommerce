@@ -11,8 +11,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePageFactory {
-	public static BasePage getBasePageObject() {
-		return new BasePage();
+	public static BasePageFactory getBasePageFactoryObject() {
+		return new BasePageFactory();
 	}
 	
 	protected void openPageUrl(WebDriver driver, String pageUrl) {
@@ -95,7 +95,7 @@ public class BasePageFactory {
 		}
 		driver.switchTo().window(parentID);
 	}
-	// Tham số truyền vào của các hàm cũng phải là WebElement
+	//  Tham số truyền vào của các hàm  phải là WebElement
 	protected void waitForElementVisible(WebDriver driver, WebElement element) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout));
 		explicitWait.until(ExpectedConditions.visibilityOf(element));

@@ -8,17 +8,17 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import commons.BaseTest;
-import pageFactory.HomePageObject;
-import pageFactory.RegisterPageObject;
-import pageObjects.LoginPageObject;
+import pageFactory.nopCommerce.HomePageObject;
+import pageFactory.nopCommerce.RegisterPageObject;
+import pageObjects.nopCommerce.user.UserLoginPageObject;
 
 public class Level_05_Page_Factory extends BaseTest {
 
 	private WebDriver driver;
-	private String firstName, lastName, existingEmail, inValidEmail, notFoundEmail,  pasword;
+	private String firstName, lastName, existingEmail, inValidEmail, notFoundEmail,  password;
 	private HomePageObject homePage;
 	private RegisterPageObject registerPage;
-	private LoginPageObject loginPage;
+	private UserLoginPageObject loginPage;
 
 	@Parameters("browser")
 	@BeforeClass
@@ -31,7 +31,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		existingEmail = "afc" + generateFakeNumber() + "@gmail.com";
 		inValidEmail = "123@456@.vn";
 		notFoundEmail = "afc" + generateFakeNumber() + "@mail.com";
-		pasword = "123456";
+		password = "123456";
 
 		System.out.println("Pre-Condition - Step 01 : Click to Register link");
 		homePage.clickToRegisterLink();
@@ -41,8 +41,8 @@ public class Level_05_Page_Factory extends BaseTest {
 		registerPage.inputToFirstnameTextbox(firstName);
 		registerPage.inputToLastNameTextbox(lastName);
 		registerPage.inputToEmailTextbox(existingEmail);
-		registerPage.inputToPasswordTextbox(pasword);
-		registerPage.inputToConfirmPasswordTextbox(pasword);
+		registerPage.inputToPasswordTextbox(password);
+		registerPage.inputToConfirmPasswordTextbox(password);
 
 		System.out.println("Pre-Condition - Step 03 : Click to Register button");
 		registerPage.clickToRegisterButton();
@@ -62,7 +62,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 
 		loginPage.clickToLoginButton();
 
@@ -74,7 +74,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 		
 		loginPage.inputToEmailTextbox(inValidEmail);
 		
@@ -88,7 +88,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 		
 		loginPage.inputToEmailTextbox(notFoundEmail);
 		
@@ -102,7 +102,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 		
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox("");
@@ -117,7 +117,7 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 		
 		loginPage.inputToEmailTextbox(existingEmail);
 		loginPage.inputToPasswordTextbox("654321");
@@ -132,10 +132,10 @@ public class Level_05_Page_Factory extends BaseTest {
 		homePage.clickToLoginLink();
 
 		// Từ trang Home - Click Login link - > Qua trang Login
-		loginPage = new LoginPageObject(driver);
+		loginPage = new UserLoginPageObject(driver);
 		
 		loginPage.inputToEmailTextbox(existingEmail);
-		loginPage.inputToPasswordTextbox(pasword);
+		loginPage.inputToPasswordTextbox(password);
 		
 		loginPage.clickToLoginButton();
 		

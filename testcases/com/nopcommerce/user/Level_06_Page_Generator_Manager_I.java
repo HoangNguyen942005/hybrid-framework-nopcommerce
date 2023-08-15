@@ -1,27 +1,21 @@
 package com.nopcommerce.user;
 
-import java.time.Duration;
-import java.util.Random;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import commons.BaseTest;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserLoginPageObject;
 import pageObjects.nopCommerce.user.UserRegisterPageObject;
 
-public class Level_03_Page_Object_02_Login {
+public class Level_06_Page_Generator_Manager_I extends BaseTest  {
 
 	private WebDriver driver;
 	private String firstName, lastName, existingEmail, inValidEmail, notFoundEmail,  password;
-	private String projectPath = System.getProperty("user.dir");
 	private UserHomePageObject homePage;
 	private UserRegisterPageObject registerPage;
 	private UserLoginPageObject loginPage;
@@ -29,21 +23,8 @@ public class Level_03_Page_Object_02_Login {
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
-		if (browserName.equals("firefox")) {
-			System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDrivers\\geckodriver.exe");
-			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", projectPath + "\\browserDrivers\\chromedriver.exe");
-			driver = new ChromeDriver();
-		} else if (browserName.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", projectPath + "\\browserDrivers\\msedgedriver.exe");
-			driver = new EdgeDriver();
-		} else {
-            throw new RuntimeException("Browser name invalid");
-		}
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("https://demo.nopcommerce.com/");
+		 driver = getBrowserDriver(browserName); 
+		 
 		homePage = new UserHomePageObject(driver);
 
 		firstName = "Automation";
@@ -87,7 +68,6 @@ public class Level_03_Page_Object_02_Login {
 		loginPage.clickToLoginButton();
 
 		Assert.assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
-
 	}
 
 	@Test
@@ -131,7 +111,6 @@ public class Level_03_Page_Object_02_Login {
 		loginPage.clickToLoginButton();
 		
 		Assert.assertEquals(loginPage.getErrorMessageUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
-
 	}
 
 	@Test
@@ -147,7 +126,6 @@ public class Level_03_Page_Object_02_Login {
 		loginPage.clickToLoginButton();
 		
 		Assert.assertEquals(loginPage.getErrorMessageUnsuccessful(), "Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect");
-
 	}
 
 	@Test
@@ -172,10 +150,4 @@ public class Level_03_Page_Object_02_Login {
 	public void afterClass() {
 		driver.quit();
 	}
-
-	public int generateFakeNumber() {
-		Random rand = new Random();
-		return rand.nextInt(9999);
-	}
-
 }
