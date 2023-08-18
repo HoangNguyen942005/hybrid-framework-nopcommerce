@@ -14,11 +14,11 @@ public class BaseTest {
 	private WebDriver driver;
 
 	protected WebDriver getBrowserDriver(String browserName) {
-		
-		if (browserName.equals("firefox")) {	
+
+		if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		} else if (browserName.equals("chrome")) {	
+		} else if (browserName.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equals("edge")) {
@@ -27,12 +27,32 @@ public class BaseTest {
 		} else {
 			throw new RuntimeException("Browser name invalid");
 		}
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
 		driver.get(GlobalConstants.PORTAL_PAGE_URL);
 		return driver;
 	}
-	
+
+	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
+
+		if (browserName.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		} else if (browserName.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		} else if (browserName.equals("edge")) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		} else {
+			throw new RuntimeException("Browser name invalid");
+		}
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
+		driver.get(appUrl);
+		return driver;
+	}
+
 	public int generateFakeNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);

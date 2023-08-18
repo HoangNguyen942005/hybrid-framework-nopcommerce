@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="tests" name="NopCommerce">
 
+ <parameter name="url" value="http://live.techpanda.org/index.php/customer/account/login/" />
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		    <classes>
-			     <class name="com.nopcommerce.user.Level_09_Dynamic_Locator" />
+			     <class name="com.jquery.datatable.Level_10_Tech_Panda_Exercise" />
 		    </classes>
 	</test>
 

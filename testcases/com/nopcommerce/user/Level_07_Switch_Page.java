@@ -101,13 +101,6 @@ public class Level_07_Switch_Page extends BaseTest  {
 	  customerInfoPage = addressPage.openCustomerInfoPage(driver);
 	}
 	
-	@Test
-	public void User_05_Switch_Role() {
-		// Role User -> Role Admin
-		
-		// Role Admin -> Role User
-	}
-
 	@AfterClass
 	public void afterClass() {
 		driver.quit();
