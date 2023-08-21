@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="tests" name="NopCommerce">
-
- <parameter name="url" value="https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid//" />
+    <listeners>
+        <listener class-name="commons.MethodListener)"></listener>
+    </listeners>
+ <parameter name="url" value="https://demo.nopcommerce.com/" />
 	<test name="Run on Firefox">
 		<parameter name="browser" value="firefox" />
 		    <classes>
-			     <class name="com.jquery.Level_10_Data_Grid" />
+			     <class name="com.jquery.Level_12_Assert_Verify" />
 		    </classes>
 	</test>
 

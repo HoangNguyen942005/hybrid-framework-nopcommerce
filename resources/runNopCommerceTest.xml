@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite parallel="tests" name="NopCommerce">
 
-	<test name="Run on Firefox">
-		<parameter name="browser" value="firefox" />
-		    <classes>
-			     <class name="com.nopcommerce.user.Level_09_Dynamic_Locator" />
-		    </classes>
-	</test>
-
-</suite> 
+	<listeners>
+		<listener class-name="commons.MethodListener"></listener>
+	<!-- <listener class-name="reportConfig.ReportNGListener"></listener>-->	
+		<listener class-name="reportConfig.ExtentReportListenerV2"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	
+	<test name="Run on Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.nopcommerce.user.Level_15_ExtendV2_Screenshot" />
+		</classes>
+	</test></suite>
