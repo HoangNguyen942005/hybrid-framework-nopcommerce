@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
 	<!-- <listener class-name="reportConfig.ReportNGListener"></listener>-->	
-		<listener class-name="reportConfig.ExtentReportListenerV2"></listener>
+		<listener class-name="reportConfig.ExtentReportListenerV5"></listener>
 		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
 	</listeners>
@@ -12,6 +12,6 @@
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_15_ExtendV2_Screenshot" />
+			<class name="com.nopcommerce.user.Level_15_ExtendV5" />
 		</classes>
 	</test></suite>

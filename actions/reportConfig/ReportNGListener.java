@@ -42,7 +42,7 @@ public class ReportNGListener implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
         
-		// Get driver from Class test
+		// Get driver from BaseTest
 		Object testClass = result.getInstance();
 		WebDriver webDriver = ((BaseTest) testClass).getDriverInstance();
 
