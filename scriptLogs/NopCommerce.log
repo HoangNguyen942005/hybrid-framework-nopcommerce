@@ -293,3 +293,395 @@
 [2023-08-21 23:20:39,568] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
 [2023-08-21 23:20:39,708] Register - Step 07 : Click to 'Register' Button
 [2023-08-21 23:20:40,425] Register - Step 08 : Verify Register Success Message
+[2023-08-23 11:38:20,954] Login - Step 01: Navigate to Login page
+[2023-08-23 11:38:21,982] Login - Step 02: Enter to Email Textbox with value is 'afc5891@gmail.com' 
+[2023-08-23 11:38:22,173] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 11:38:22,334] Login - Step 04: Navigate to Login page
+[2023-08-23 11:47:33,248] Login - Step 01: Navigate to Login page
+[2023-08-23 11:47:34,316] Login - Step 02: Enter to Email Textbox with value is 'afc49@gmail.com' 
+[2023-08-23 11:47:34,507] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 11:47:34,681] Login - Step 04: Navigate to Login page
+[2023-08-23 11:53:33,147] Login - Step 01: Navigate to Login page
+[2023-08-23 11:53:34,186] Login - Step 02: Enter to Email Textbox with value is 'afc6998@gmail.com' 
+[2023-08-23 11:53:34,385] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 11:53:34,535] Login - Step 04: Navigate to Login page
+[2023-08-23 12:41:16,018] Login - Step 01: Navigate to Login page
+[2023-08-23 12:41:16,564] Login - Step 02: Enter to Email Textbox with value is 'afc3535@gmail.com' 
+[2023-08-23 12:41:16,765] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 12:41:16,922] Login - Step 04: Navigate to Login page
+[2023-08-23 12:41:36,932] Login - Step 01: Navigate to Login page
+[2023-08-23 12:41:37,979] Login - Step 02: Enter to Email Textbox with value is 'afc4104@gmail.com' 
+[2023-08-23 12:41:38,161] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 12:41:38,311] Login - Step 04: Navigate to Login page
+[2023-08-23 12:41:58,575] Login - Step 01: Navigate to Login page
+[2023-08-23 12:42:14,534] Login - Step 01: Navigate to Login page
+[2023-08-23 12:42:15,580] Login - Step 02: Enter to Email Textbox with value is 'afc3730@gmail.com' 
+[2023-08-23 12:42:15,771] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 12:42:15,943] Login - Step 04: Navigate to Login page
+[2023-08-23 12:42:32,288] Login - Step 01: Navigate to Login page
+[2023-08-23 12:42:32,795] Login - Step 02: Enter to Email Textbox with value is 'afc7608@gmail.com' 
+[2023-08-23 12:42:32,974] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 12:42:33,124] Login - Step 04: Navigate to Login page
+[2023-08-23 12:42:47,924] Login - Step 01: Navigate to Login page
+[2023-08-23 12:42:48,972] Login - Step 02: Enter to Email Textbox with value is 'afc9319@gmail.com' 
+[2023-08-23 12:42:49,147] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 12:42:49,295] Login - Step 04: Navigate to Login page
+[2023-08-23 12:43:45,058] Login - Step 01: Navigate to Login page
+[2023-08-23 12:43:45,278] Login - Step 02: Enter to Email Textbox with value is 'afc8043@gmail.com' 
+[2023-08-23 12:44:00,321] Login - Step 01: Navigate to Login page
+[2023-08-23 12:44:00,862] Login - Step 02: Enter to Email Textbox with value is 'afc4721@gmail.com' 
+[2023-08-23 12:44:01,045] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 13:34:37,232] Login - Step 01: Navigate to Login page
+[2023-08-23 13:34:38,255] Login - Step 02: Set cookies and reload page 
+[2023-08-23 13:34:41,341] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 13:34:42,328] Login - Step 02: Enter to Password Textbox with value is 'null' 
+[2023-08-23 13:36:17,362] Login - Step 01: Navigate to Login page
+[2023-08-23 13:36:18,393] Login - Step 02: Set cookies and reload page 
+[2023-08-23 13:36:22,554] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 13:38:23,554] Login - Step 01: Navigate to Login page
+[2023-08-23 13:38:24,572] Login - Step 02: Set cookies and reload page 
+[2023-08-23 13:38:27,648] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 13:38:53,296] Login - Step 01: Navigate to Login page
+[2023-08-23 13:38:54,340] Login - Step 02: Set cookies and reload page 
+[2023-08-23 13:38:57,426] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 13:44:51,511] Login - Step 01: Navigate to Login page
+[2023-08-23 13:44:52,623] Login - Step 02: Set cookies and reload page 
+[2023-08-23 13:44:55,698] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 16:28:17,194] Register - Step 01: Navigate to Register page
+[2023-08-23 16:28:18,271] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:28:18,470] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:28:18,629] Register - Step 04 : Enter to Email Textbox with value is 'afc6059@gmail.com'
+[2023-08-23 16:28:18,799] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:28:18,942] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:28:19,086] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 16:28:19,801] Register - Step 08 : Verify Register Success Message
+[2023-08-23 16:28:19,882]  -------------------------- FAILED -------------------------- 
+[2023-08-23 16:28:19,883] Register - Step 09 : Click to Log out link
+[2023-08-23 16:28:20,566] Login - Step 01: Navigate to Login page
+[2023-08-23 16:28:21,449] Login - Step 02: Enter to Email Textbox with value is 'afc6059@gmail.com' 
+[2023-08-23 16:28:21,615] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 16:28:21,761] Login - Step 04: Navigate to Login page
+[2023-08-23 16:28:22,482] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 16:28:22,546]  -------------------------- PASSED -------------------------- 
+[2023-08-23 16:28:22,546] Login - Step 06: Navigate to 'My account' page
+[2023-08-23 16:28:22,964] Login - Step 07: Verify Customer info page is displayed
+[2023-08-23 16:28:23,044]  -------------------------- FAILED -------------------------- 
+[2023-08-23 16:38:03,864] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 16:38:04,934] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:38:05,128] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:38:05,287] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc9329@gmail.com'
+[2023-08-23 16:38:05,465] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:38:05,612] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:38:05,755] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 16:38:06,993] Register - Step 08 : Verify Register Success Message
+[2023-08-23 16:38:07,071]  -------------------------- FAILED -------------------------- 
+[2023-08-23 16:38:07,072] Register - Step 09 : Click to Log out link
+[2023-08-23 16:38:07,525] Pre-conditon - Step 10: Navigate to Login page
+[2023-08-23 16:38:07,951] Pre-conditon - Step 11: Enter to Email Textbox with value is 'afc9329@gmail.com' 
+[2023-08-23 16:38:08,117] Pre-conditon - Step 12: Enter to Password Textbox with value is '123456' 
+[2023-08-23 16:38:08,271] Pre-conditon - Step 13: Click to Login button
+[2023-08-23 16:43:03,664] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 16:43:04,736] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:43:04,929] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:43:05,088] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc8120@gmail.com'
+[2023-08-23 16:43:05,257] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:43:05,403] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:43:05,553] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 16:43:06,316] Register - Step 08 : Verify Register Success Message
+[2023-08-23 16:43:06,392]  -------------------------- FAILED -------------------------- 
+[2023-08-23 16:43:06,393] Register - Step 09 : Click to Log out link
+[2023-08-23 16:43:07,398] Pre-conditon - Step 10: Navigate to Login page
+[2023-08-23 16:43:07,832] Pre-conditon - Step 11: Enter to Email Textbox with value is 'afc8120@gmail.com' 
+[2023-08-23 16:43:07,998] Pre-conditon - Step 12: Enter to Password Textbox with value is '123456' 
+[2023-08-23 16:43:08,147] Pre-conditon - Step 13: Click to Login button
+[2023-08-23 16:43:52,809] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 16:43:53,380] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:43:53,618] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:43:53,773] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc6650@gmail.com'
+[2023-08-23 16:43:53,941] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:43:54,084] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:43:54,232] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 16:43:54,939] Register - Step 08 : Verify Register Success Message
+[2023-08-23 16:44:52,720] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 16:44:53,817] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:44:54,020] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:44:54,177] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc3577@gmail.com'
+[2023-08-23 16:44:54,355] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:44:54,533] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:44:54,698] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 16:44:55,653] Pre-conditon - Step 08 : Verify Register Success Message
+[2023-08-23 16:57:16,104] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 16:57:17,162] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 16:57:17,353] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 16:57:17,516] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc4078@gmail.com'
+[2023-08-23 16:57:17,683] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 16:57:17,826] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 16:57:17,969] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 16:57:20,354] Pre-conditon - Step 08 : Verify Register Success Message
+[2023-08-23 17:21:30,983] Pre-conditon - Step 01: Navigate to Register page
+[2023-08-23 17:21:32,029] Pre-conditon - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 17:21:32,227] Pre-conditon - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 17:21:32,388] Pre-conditon - Step 04 : Enter to Email Textbox with value is 'afc3641@gmail.com'
+[2023-08-23 17:21:32,561] Pre-conditon - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 17:21:32,706] Pre-conditon - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 17:21:32,854] Pre-conditon - Step 07 : Click to 'Register' Button
+[2023-08-23 17:21:33,609] Pre-conditon - Step 08 : Verify Register Success Message
+[2023-08-23 17:21:33,862] OS name = windows 10
+[2023-08-23 17:21:33,862] Driver instance name = chromedriver: chrome on windows (e6ae895ace057984092bf6658e84fb0e)
+[2023-08-23 22:38:43,598] Register - Step 01: Navigate to Register page
+[2023-08-23 22:38:44,658] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 22:38:44,920] Register - Step 09 : Click to Log out link
+[2023-08-23 22:38:45,395] Login - Step 01: Navigate to Login page
+[2023-08-23 22:38:45,903] Login - Step 02: Enter to Email Textbox with value is 'afc9076@gmail.com' 
+[2023-08-23 22:38:46,095] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 22:38:46,269] Login - Step 04: Navigate to Login page
+[2023-08-23 22:38:46,652] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 22:47:37,024] Register - Step 01: Navigate to Register page
+[2023-08-23 22:47:38,113] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 22:47:38,370] Register - Step 09 : Click to Log out link
+[2023-08-23 22:47:38,816] Login - Step 01: Navigate to Login page
+[2023-08-23 22:47:39,225] Login - Step 02: Enter to Email Textbox with value is 'afc3591@gmail.com' 
+[2023-08-23 22:47:39,417] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 22:47:39,572] Login - Step 04: Navigate to Login page
+[2023-08-23 22:47:39,927] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 22:51:32,485] Register - Step 01: Navigate to Register page
+[2023-08-23 22:51:33,559] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 22:51:33,755] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 22:51:33,918] Register - Step 04 : Enter to Email Textbox with value is 'afc9191@gmail.com'
+[2023-08-23 22:51:34,093] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 22:51:34,240] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 22:51:34,387] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 22:51:35,138] Register - Step 08 : Verify Register Success Message
+[2023-08-23 22:51:35,323] Register - Step 09 : Click to Log out link
+[2023-08-23 22:51:35,786] Login - Step 01: Navigate to Login page
+[2023-08-23 22:51:36,715] Login - Step 02: Enter to Email Textbox with value is 'afc9191@gmail.com' 
+[2023-08-23 22:51:36,875] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 22:51:37,023] Login - Step 04: Navigate to Login page
+[2023-08-23 22:51:37,765] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 22:51:37,823] Login - Step 06: Navigate to 'My account' page
+[2023-08-23 22:51:38,258] Login - Step 07: Verify Customer info page is displayed
+[2023-08-23 23:02:40,292] OS name = windows 10
+[2023-08-23 23:02:40,295] Driver instance name = chromedriver: chrome on windows (e71729ed22cc0800d0b55dceeabe4a35)
+[2023-08-23 23:02:44,386] Error communicating with the remote browser. It may have died.
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e71729ed22cc0800d0b55dceeabe4a35, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65288}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65288/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e71729ed22cc0800d0b55dceeabe4a35
+[2023-08-23 23:02:53,499] Register - Step 01: Navigate to Register page
+[2023-08-23 23:02:54,036] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:02:54,244] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:02:54,411] Register - Step 04 : Enter to Email Textbox with value is 'afc2257@gmail.com'
+[2023-08-23 23:02:54,581] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 23:02:54,732] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 23:02:54,892] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 23:02:55,640] Register - Step 08 : Verify Register Success Message
+[2023-08-23 23:02:55,827] Register - Step 09 : Click to Log out link
+[2023-08-23 23:02:56,279] Login - Step 01: Navigate to Login page
+[2023-08-23 23:02:56,838] Login - Step 02: Enter to Email Textbox with value is 'afc2257@gmail.com' 
+[2023-08-23 23:02:57,010] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:02:57,166] Login - Step 04: Navigate to Login page
+[2023-08-23 23:02:58,488] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:02:58,546] Login - Step 06: Navigate to 'My account' page
+[2023-08-23 23:02:58,966] Login - Step 07: Verify Customer info page is displayed
+[2023-08-23 23:02:59,032] OS name = windows 10
+[2023-08-23 23:02:59,032] Driver instance name = chromedriver: chrome on windows (f9d6f4ae38e9546ba854ba5d91483f65)
+[2023-08-23 23:36:57,507] Register - Step 01: Navigate to Register page
+[2023-08-23 23:36:58,677] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:36:58,860] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:37:19,359] Register - Step 09 : Click to Log out link
+[2023-08-23 23:37:20,641] Login - Step 01: Navigate to Login page
+[2023-08-23 23:37:21,053] Login - Step 02: Enter to Email Textbox with value is 'afc2157@gmail.com' 
+[2023-08-23 23:37:21,221] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:37:21,372] Login - Step 04: Navigate to Login page
+[2023-08-23 23:37:21,736] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:37:25,428] OS name = windows 10
+[2023-08-23 23:37:25,429] Driver instance name = chromedriver: chrome on windows (48e9b8db5083354c47c0f53cdcd79225)
+[2023-08-23 23:37:25,435] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48e9b8db5083354c47c0f53cdcd79225, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49904}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49904/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48e9b8db5083354c47c0f53cdcd79225
+[2023-08-23 23:39:15,948] Register - Step 01: Navigate to Register page
+[2023-08-23 23:39:17,171] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:39:17,368] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:39:37,788] Register - Step 09 : Click to Log out link
+[2023-08-23 23:39:38,297] Login - Step 01: Navigate to Login page
+[2023-08-23 23:39:38,712] Login - Step 02: Enter to Email Textbox with value is 'afc1949@gmail.com' 
+[2023-08-23 23:39:38,881] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:39:39,044] Login - Step 04: Navigate to Login page
+[2023-08-23 23:39:39,417] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:39:59,675] OS name = windows 10
+[2023-08-23 23:39:59,675] Driver instance name = chromedriver: chrome on windows (0637b37d066cd29c1c48f180bee4e605)
+[2023-08-23 23:43:49,275] Register - Step 01: Navigate to Register page
+[2023-08-23 23:43:50,466] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:43:50,646] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:44:11,079] Register - Step 09 : Click to Log out link
+[2023-08-23 23:44:11,577] Login - Step 01: Navigate to Login page
+[2023-08-23 23:44:11,978] Login - Step 02: Enter to Email Textbox with value is 'afc6674@gmail.com' 
+[2023-08-23 23:44:12,145] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:44:12,307] Login - Step 04: Navigate to Login page
+[2023-08-23 23:44:12,679] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:44:32,877] OS name = windows 10
+[2023-08-23 23:44:32,878] Driver instance name = chromedriver: chrome on windows (65b50e33952f35b46f1ab027b6747409)
+[2023-08-23 23:47:49,397] Register - Step 01: Navigate to Register page
+[2023-08-23 23:47:50,609] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:47:50,782] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:47:51,370] Register - Step 04 : Enter to Email Textbox with value is 'afc9011@gmail.com'
+[2023-08-23 23:47:51,589] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 23:47:51,734] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 23:48:01,896] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 23:48:02,660] Register - Step 08 : Verify Register Success Message
+[2023-08-23 23:48:02,834] Register - Step 09 : Click to Log out link
+[2023-08-23 23:48:03,272] Login - Step 01: Navigate to Login page
+[2023-08-23 23:48:03,682] Login - Step 02: Enter to Email Textbox with value is 'afc9011@gmail.com' 
+[2023-08-23 23:48:03,847] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:48:03,996] Login - Step 04: Navigate to Login page
+[2023-08-23 23:48:04,762] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:48:04,829] Login - Step 06: Navigate to 'My account' page
+[2023-08-23 23:48:05,285] Login - Step 07: Verify Customer info page is displayed
+[2023-08-23 23:48:05,382] OS name = windows 10
+[2023-08-23 23:48:05,382] Driver instance name = chromedriver: chrome on windows (68349e3b466f80e3ccf8106e9bd27ea5)
+[2023-08-23 23:50:36,513] Register - Step 01: Navigate to Register page
+[2023-08-23 23:50:37,742] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:50:37,955] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:50:38,534] Register - Step 04 : Enter to Email Textbox with value is 'afc1823@gmail.com'
+[2023-08-23 23:50:38,765] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 23:50:38,904] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 23:50:49,062] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 23:50:50,313] Register - Step 08 : Verify Register Success Message
+[2023-08-23 23:50:50,491] Register - Step 09 : Click to Log out link
+[2023-08-23 23:53:31,147] Register - Step 01: Navigate to Register page
+[2023-08-23 23:53:32,353] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-23 23:53:32,534] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-23 23:53:33,147] Register - Step 04 : Enter to Email Textbox with value is 'afc3774@gmail.com'
+[2023-08-23 23:53:33,354] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-23 23:53:33,509] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-23 23:53:43,654] Register - Step 07 : Click to 'Register' Button
+[2023-08-23 23:53:44,896] Register - Step 08 : Verify Register Success Message
+[2023-08-23 23:53:45,070] Register - Step 09 : Click to Log out link
+[2023-08-23 23:53:45,506] Login - Step 01: Navigate to Login page
+[2023-08-23 23:53:45,932] Login - Step 02: Enter to Email Textbox with value is 'afc3774@gmail.com' 
+[2023-08-23 23:53:46,122] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-23 23:53:46,345] Login - Step 04: Navigate to Login page
+[2023-08-23 23:53:47,214] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-23 23:53:47,270] Login - Step 06: Navigate to 'My account' page
+[2023-08-23 23:53:47,717] Login - Step 07: Verify Customer info page is displayed
+[2023-08-24 00:12:09,971] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:12:38,053] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:12:58,526] Register - Step 01: Navigate to Register page
+[2023-08-24 00:12:59,760] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-24 00:12:59,932] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-24 00:13:00,682] Register - Step 04 : Enter to Email Textbox with value is 'afc1097@gmail.com'
+[2023-08-24 00:13:00,898] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-24 00:13:01,040] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-24 00:13:01,213] Register - Step 07 : Click to 'Register' Button
+[2023-08-24 00:13:01,934] Register - Step 08 : Verify Register Success Message
+[2023-08-24 00:13:02,019] Register - Step 09 : Click to Log out link
+[2023-08-24 00:13:02,978] Login - Step 01: Navigate to Login page
+[2023-08-24 00:13:03,392] Login - Step 02: Enter to Email Textbox with value is 'afc1097@gmail.com' 
+[2023-08-24 00:13:03,549] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-24 00:13:03,684] Login - Step 04: Navigate to Login page
+[2023-08-24 00:13:04,395] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-24 00:13:04,458] OS name = windows 10
+[2023-08-24 00:13:04,458] Driver instance name = chromedriver: chrome on windows (d7f6701321813702fb634b63ef3ebfcd)
+[2023-08-24 00:13:20,108] Register - Step 01: Navigate to Register page
+[2023-08-24 00:13:21,307] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-24 00:13:21,479] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-24 00:13:22,064] Register - Step 04 : Enter to Email Textbox with value is 'afc7384@gmail.com'
+[2023-08-24 00:13:22,278] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-24 00:13:22,412] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-24 00:13:22,554] Register - Step 07 : Click to 'Register' Button
+[2023-08-24 00:13:23,294] Register - Step 08 : Verify Register Success Message
+[2023-08-24 00:13:23,465] Register - Step 09 : Click to Log out link
+[2023-08-24 00:13:43,656] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:13:44,092] My Account - Step 02: Verify Customer info page is displayed
+[2023-08-24 00:13:44,154] My Account - Step 03: Verify 'First Name ' value is correctly
+[2023-08-24 00:13:44,215] My Account - Step 04: Verify 'Last Name ' value is correctly
+[2023-08-24 00:13:44,271] My Account - Step 05: Verify 'Email ' value is correctly
+[2023-08-24 00:13:44,327] OS name = windows 10
+[2023-08-24 00:13:44,327] Driver instance name = chromedriver: chrome on windows (7aadf5e3bbe5dd966c149de4dfc236f9)
+[2023-08-24 00:15:45,665] Register - Step 01: Navigate to Register page
+[2023-08-24 00:15:46,839] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-24 00:15:47,023] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-24 00:15:47,597] Register - Step 04 : Enter to Email Textbox with value is 'afc4378@gmail.com'
+[2023-08-24 00:15:47,822] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-24 00:15:47,980] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-24 00:15:48,123] Register - Step 07 : Click to 'Register' Button
+[2023-08-24 00:15:48,837] Register - Step 08 : Verify Register Success Message
+[2023-08-24 00:15:49,015] Register - Step 09 : Click to Log out link
+[2023-08-24 00:16:09,189] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:16:09,457] OS name = windows 10
+[2023-08-24 00:16:09,457] Driver instance name = chromedriver: chrome on windows (07ab87df1543894281cbc33f0175ca1d)
+[2023-08-24 00:16:09,462] disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=116.0.5845.97)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07ab87df1543894281cbc33f0175ca1d, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.97, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51792/devtoo..., se:cdpVersion: 116.0.5845.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 07ab87df1543894281cbc33f0175ca1d
+[2023-08-24 00:16:29,773] Register - Step 01: Navigate to Register page
+[2023-08-24 00:16:31,010] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-24 00:16:31,189] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-24 00:16:31,766] Register - Step 04 : Enter to Email Textbox with value is 'afc4812@gmail.com'
+[2023-08-24 00:16:32,012] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-24 00:16:32,154] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-24 00:16:32,307] Register - Step 07 : Click to 'Register' Button
+[2023-08-24 00:16:33,652] Register - Step 08 : Verify Register Success Message
+[2023-08-24 00:16:33,822] Register - Step 09 : Click to Log out link
+[2023-08-24 00:16:34,276] Login - Step 01: Navigate to Login page
+[2023-08-24 00:16:36,034] Login - Step 02: Enter to Email Textbox with value is 'afc4812@gmail.com' 
+[2023-08-24 00:16:36,194] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-24 00:16:36,358] Login - Step 04: Navigate to Login page
+[2023-08-24 00:16:37,144] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-24 00:16:37,224] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:16:37,691] My Account - Step 02: Verify Customer info page is displayed
+[2023-08-24 00:16:37,766] My Account - Step 03: Verify 'First Name ' value is correctly
+[2023-08-24 00:16:37,825] My Account - Step 04: Verify 'Last Name ' value is correctly
+[2023-08-24 00:16:37,876] My Account - Step 05: Verify 'Email ' value is correctly
+[2023-08-24 00:16:37,929] OS name = windows 10
+[2023-08-24 00:16:37,930] Driver instance name = chromedriver: chrome on windows (88a2617a56cb633f3e36138cc097542e)
+[2023-08-24 00:17:03,133] Register - Step 01: Navigate to Register page
+[2023-08-24 00:17:05,466] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-08-24 00:17:05,640] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-08-24 00:17:06,201] Register - Step 04 : Enter to Email Textbox with value is 'afc9970@gmail.com'
+[2023-08-24 00:17:06,412] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-08-24 00:17:06,547] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-08-24 00:17:06,693] Register - Step 07 : Click to 'Register' Button
+[2023-08-24 00:17:07,974] Register - Step 08 : Verify Register Success Message
+[2023-08-24 00:17:08,176] Register - Step 09 : Click to Log out link
+[2023-08-24 00:17:08,609] Login - Step 01: Navigate to Login page
+[2023-08-24 00:17:09,056] Login - Step 02: Enter to Email Textbox with value is 'afc9970@gmail.com' 
+[2023-08-24 00:17:09,208] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-08-24 00:17:09,363] Login - Step 04: Navigate to Login page
+[2023-08-24 00:17:10,083] Login - Step 05: Verify 'My account' link is displayed
+[2023-08-24 00:17:10,151] My Account - Step 01: Navigate to 'My account' page
+[2023-08-24 00:17:10,562] My Account - Step 02: Verify Customer info page is displayed
+[2023-08-24 00:17:10,624] My Account - Step 03: Verify 'First Name ' value is correctly
+[2023-08-24 00:17:10,683] My Account - Step 04: Verify 'Last Name ' value is correctly
+[2023-08-24 00:17:10,755] My Account - Step 05: Verify 'Email ' value is correctly
+[2023-08-24 00:17:10,819] OS name = windows 10
+[2023-08-24 00:17:10,819] Driver instance name = chromedriver: chrome on windows (2df6ea218409e71689e51682c89afbce)
+[2023-08-29 01:04:08,493] Pre-condition - Step 01 : Open browser and admin Url
+[2023-08-29 01:04:13,971] Pre-condition - Step 02 : Enter to Username textbox with value : automationfc
+[2023-08-29 01:04:14,250] Pre-condition - Step 03 : Enter to Username textbox with value :automationfc
+[2023-08-29 01:04:14,407] Pre-condition - Step 04 : Click to Login button
+[2023-08-29 01:04:17,106] Create_Post - Step 01 : Click to Posts menu link
+[2023-08-29 01:04:18,662] Create_Post - Step 02 : Get Search Posts page Url
+[2023-08-29 01:04:18,676] Create_Post - Step 03 : Click to Add New button
+[2023-08-29 01:04:22,044] Create_Post - Step 04 : Enter to post title
+[2023-08-29 01:04:25,271] Create_Post - Step 05 : Enter to body
+[2023-08-29 01:04:26,083] Create_Post - Step 06 : Click to Publish button
+[2023-08-29 01:04:26,507] Create_Post - Step 07 : Click to Publish button
+[2023-08-29 01:04:28,382] Create_Post - Step 08 : Verify Post published message displayed
+[2023-08-29 01:04:29,762]  -------------------------- PASSED -------------------------- 
+[2023-08-29 01:04:29,882] Search_Post - Step 01 : Open Search Post page
+[2023-08-29 01:04:32,433] OS name = windows 10
+[2023-08-29 01:04:32,433] Driver instance name = chromedriver: chrome on windows (d6f324faabf9d1923d2a18a3578c4ac5)
