@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite parallel="tests" name="NopCommerce">
+<suite parallel="false" name="SaucaLab - Sort">
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
@@ -9,9 +9,11 @@
 	<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener> -->	
 	</listeners>
 	
+	<parameter name = "appUrl" value = "https://www.saucedemo.com/" />
+	
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		 <class name="com.nopcommerce.user.Level_21_Manage_Data_External" />
+		 <class name="com.saurcelab.sort.Level_19_Sort_Asc_Desc" />
 		</classes>
 	</test></suite>

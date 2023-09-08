@@ -1,16 +1,21 @@
-[2023-08-29 01:04:08,493] Pre-condition - Step 01 : Open browser and admin Url
-[2023-08-29 01:04:13,971] Pre-condition - Step 02 : Enter to Username textbox with value : automationfc
-[2023-08-29 01:04:14,250] Pre-condition - Step 03 : Enter to Username textbox with value :automationfc
-[2023-08-29 01:04:14,407] Pre-condition - Step 04 : Click to Login button
-[2023-08-29 01:04:17,106] Create_Post - Step 01 : Click to Posts menu link
-[2023-08-29 01:04:18,662] Create_Post - Step 02 : Get Search Posts page Url
-[2023-08-29 01:04:18,676] Create_Post - Step 03 : Click to Add New button
-[2023-08-29 01:04:22,044] Create_Post - Step 04 : Enter to post title
-[2023-08-29 01:04:25,271] Create_Post - Step 05 : Enter to body
-[2023-08-29 01:04:26,083] Create_Post - Step 06 : Click to Publish button
-[2023-08-29 01:04:26,507] Create_Post - Step 07 : Click to Publish button
-[2023-08-29 01:04:28,382] Create_Post - Step 08 : Verify Post published message displayed
-[2023-08-29 01:04:29,762]  -------------------------- PASSED -------------------------- 
-[2023-08-29 01:04:29,882] Search_Post - Step 01 : Open Search Post page
-[2023-08-29 01:04:32,433] OS name = windows 10
-[2023-08-29 01:04:32,433] Driver instance name = chromedriver: chrome on windows (d6f324faabf9d1923d2a18a3578c4ac5)
+[2023-09-07 14:33:45,386] Register - Step 01: Navigate to Register page
+[2023-09-07 14:33:46,607] Register - Step 02 : Enter to Firstname Textbox with value is 'Automation'
+[2023-09-07 14:33:46,802] Register - Step 03 : Enter to Lastname Textbox with value is 'FC'
+[2023-09-07 14:33:47,424] Register - Step 04 : Enter to Email Textbox with value is 'automationfc65415@fakeemail.com'
+[2023-09-07 14:33:47,665] Register - Step 05 : Enter to Password Textbox with value is '123456'
+[2023-09-07 14:33:47,803] Register - Step 06 : Enter to Confirm Pasword Textbox with value is '123456'
+[2023-09-07 14:33:47,951] Register - Step 07 : Click to 'Register' Button
+[2023-09-07 14:33:49,273] Register - Step 08 : Verify Register Success Message
+[2023-09-07 14:33:49,436] Register - Step 09 : Click to Log out link
+[2023-09-07 14:33:49,882] Login - Step 01: Navigate to Login page
+[2023-09-07 14:33:50,319] Login - Step 02: Enter to Email Textbox with value is 'automationfc65415@fakeemail.com' 
+[2023-09-07 14:33:50,518] Login - Step 02: Enter to Password Textbox with value is '123456' 
+[2023-09-07 14:33:50,675] Login - Step 04: Navigate to Login page
+[2023-09-07 14:33:51,507] Login - Step 05: Verify 'My account' link is displayed
+[2023-09-07 14:33:51,584] My Account - Step 01: Navigate to 'My account' page
+[2023-09-07 14:33:52,025] My Account - Step 02: Verify Customer info page is displayed
+[2023-09-07 14:33:52,087] My Account - Step 03: Verify 'First Name ' value is correctly
+[2023-09-07 14:33:52,145] My Account - Step 04: Verify 'Last Name ' value is correctly
+[2023-09-07 14:33:52,201] My Account - Step 05: Verify 'Email ' value is correctly
+[2023-09-07 14:33:52,251] OS name = windows 10
+[2023-09-07 14:33:52,251] Driver instance name = chromedriver: chrome on windows (39e4c0284445824d1cdd0ca1d1b07ad3)

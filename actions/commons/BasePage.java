@@ -25,6 +25,7 @@ import pageObjects.nopCommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopCommerce.user.UserHomePageObject;
 import pageObjects.nopCommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopCommerce.user.UserRewardPointPageObject;
+import pageObjects.wordpress.UserHomePO;
 import pageUIs.jQuery.uploadFile.BasePageJQueryUI;
 import pageUIs.nopCommerce.user.BasePageUI;
 
@@ -184,6 +185,11 @@ public class BasePage {
 		element.clear();
 		element.sendKeys(textValue);
 	}
+	
+	public void clearValueInElementByDeleteKey(WebDriver driver, String locatorType, String textValue) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
+	}
 
 	public void senkeyToElement(WebDriver driver, String locatorType, String textValue, String... dynamicValues) {
 		WebElement element = getWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
@@ -326,6 +332,20 @@ public class BasePage {
         return false;
 	}	   
 }
+	
+	public boolean isElementUndisplayed(WebDriver driver, String locatorType, String... dynamicValues) {
+		   overrideImplicitTimeout(driver, shortTimeout);
+		   List<WebElement> elements = getListWebElement(driver, getDynamicXpath(locatorType, dynamicValues));
+		   overrideImplicitTimeout(driver, longTimeout);
+		   
+		   if (elements.size() == 0) {
+			return true;
+		} else  if (elements.size() >0 && !elements.get(0).isDisplayed()) {
+			return true;
+		} else {
+	        return false;
+		}	   
+	}
 	
 	public void overrideImplicitTimeout(WebDriver driver, long timeOut) {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeOut));
@@ -650,6 +670,11 @@ public class BasePage {
 		waitForElementClickAble(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		return PageGeneratorManager.getAdminLoginPage(driver);
+	}
+	
+	public UserHomePO openEndUserSite(WebDriver driver, String endUserUrl) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
