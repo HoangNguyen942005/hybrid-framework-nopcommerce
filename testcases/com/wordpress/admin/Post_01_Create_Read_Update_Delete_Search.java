@@ -59,7 +59,7 @@ public class Post_01_Create_Read_Update_Delete_Search extends BaseTest {
 		adminPostSearchPage =	adminDashBoardPage.clickToPostsMenuLink();
 		
 		log.info("Create_Post - Step 02 : Get Search Posts page Url");
-		searchPostUrl = adminPostSearchPage.getPageUrl(driver);
+		searchPostUrl = adminPostSearchPage.getPageUrl();
 		
 		log.info("Create_Post - Step 03 : Click to Add New button");
 		adminPostAddNewPage = adminPostSearchPage.clickToAddNewButton();
@@ -98,7 +98,7 @@ public class Post_01_Create_Read_Update_Delete_Search extends BaseTest {
 		verifyTrue(adminPostSearchPage.isPostSearchTableDisplayed(driver, "author", authorName));
 		
 		log.info("Search_Post - Step 06 : Open End User site");
-		userHomePage = adminPostSearchPage.openEndUserSite(driver, this.endUserUrl );
+		userHomePage = adminPostSearchPage.openEndUserSite(this.endUserUrl );
 		
 		log.info("Search_Post - Step 07 : Verify Post infor displayed at Home Page");
 		verifyTrue(userHomePage.isPostInforDisplayedOnHomePage(postTitle));

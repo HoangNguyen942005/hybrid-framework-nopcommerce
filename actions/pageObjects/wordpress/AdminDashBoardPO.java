@@ -9,12 +9,13 @@ public class AdminDashBoardPO  extends BasePage{
 	private WebDriver driver;
 
 	public AdminDashBoardPO(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public AdminPostSearchPO clickToPostsMenuLink() {
-		waitForElementClickAble(driver, AdminDashboardPageUI.POST_MENU_LINK);
-		clickToElement(driver, AdminDashboardPageUI.POST_MENU_LINK);
+		waitForElementClickAble(AdminDashboardPageUI.POST_MENU_LINK);
+		clickToElement(AdminDashboardPageUI.POST_MENU_LINK);
 		return PageGeneratorManager.getAdminPostSearchPage(driver);
 	}
 }

@@ -3,15 +3,19 @@
 
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
-	<!-- <listener class-name="reportConfig.ReportNGListener"></listener>-->	
+		<!-- <listener class-name="reportConfig.ReportNGListener"></listener>-->
 		<listener class-name="reportConfig.AllureTestListener"></listener>
-	<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->	
-	<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener> -->	
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>-->
+		<!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener> -->
 	</listeners>
-	
+
+	<!-- Global-->
+	<parameter name="environment" value="testing" />
+
 	<test name="Run on Chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		 <class name="com.nopcommerce.user.Level_21_Manage_Data_External" />
+			<class name="com.nopcommerce.user.Level_23_Multiple_Enviroment_Owner" />
 		</classes>
-	</test></suite>
+	</test>
+</suite>

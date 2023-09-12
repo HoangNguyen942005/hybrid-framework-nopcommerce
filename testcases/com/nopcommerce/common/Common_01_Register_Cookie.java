@@ -73,7 +73,7 @@ public class Common_01_Register_Cookie extends BaseTest {
 		log.info("Pre-condition - Step 13: Navigate to Login page");
 		homePage = loginPage.clickToLoginButton();
 		
-		loggedCookies = homePage.getAllCookies(driver);
+		loggedCookies = homePage.getAllCookies();
 		for (Cookie cookie : loggedCookies) {
 			System.out.println("Cookie at Common class :" + cookie);
 		}

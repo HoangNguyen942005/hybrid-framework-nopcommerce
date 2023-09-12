@@ -31,11 +31,11 @@ public class Level_16_Share_Data_C extends BaseTest {
 		loginPage = homePage.openLoginPage();
 
 		log.info("Login - Step 02: Set cookies and reload page ");
-		loginPage.setCookies(driver, Common_01_Register_Cookie.loggedCookies);
+		loginPage.setCookies(Common_01_Register_Cookie.loggedCookies);
 		for (Cookie cookie : Common_01_Register_Cookie.loggedCookies) {
 			System.out.println("Cookie at Common class :" + cookie);
 		}
-		loginPage.refreshCurrentPage(driver);
+		loginPage.refreshCurrentPage();
 		
 		log.info("Login - Step 05: Verify 'My account' link is displayed");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());

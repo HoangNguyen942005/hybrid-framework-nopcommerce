@@ -81,24 +81,24 @@ public class Level_07_Switch_Page extends BaseTest  {
 		// Một page A khi chuyển qua page B thì phải viết 1 hàm (action: open, click/... link/ button)
 		
 		// Customer Infor -> Address
-		addressPage = customerInfoPage.openAddresspage(driver);
+		addressPage = customerInfoPage.openAddresspage();
 		
 		// Address -> My Product Review
-	   myProductReviewPage =	addressPage.openMyProductReviewPage(driver);
+	   myProductReviewPage =	addressPage.openMyProductReviewPage();
 	   
 		// My Product Review -> Reward Point
-	  rewardPointPage =  myProductReviewPage.openRewardPoint(driver);
+	  rewardPointPage =  myProductReviewPage.openRewardPoint();
 		
 		// Reward Point -> Address
-	  addressPage =  rewardPointPage.openAddresspage(driver);
+	  addressPage =  rewardPointPage.openAddresspage();
 		
 		// Address -> Reward Point
-	  rewardPointPage = addressPage.openRewardPoint(driver);
+	  rewardPointPage = addressPage.openRewardPoint();
 		
 		// Reward Point -> My Product Review
-	  myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
+	  myProductReviewPage = rewardPointPage.openMyProductReviewPage();
 		
-	  customerInfoPage = addressPage.openCustomerInfoPage(driver);
+	  customerInfoPage = addressPage.openCustomerInfoPage();
 	}
 	
 	@AfterClass

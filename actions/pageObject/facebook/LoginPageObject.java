@@ -9,36 +9,37 @@ public class LoginPageObject extends BasePage {
     WebDriver driver;
     
     public LoginPageObject(WebDriver driver) {
+    	super(driver);  // dùng super gọi đến driver của BasePage
     	this.driver = driver;
     }
 
 	public void clickToCreateNewAccountButton() {
-		waitForElementClickAble(driver, FacebookLoginPageUI.CREATE_NEW_ACCOUNT_BUTTON);
-		clickToElement(driver, FacebookLoginPageUI.CREATE_NEW_ACCOUNT_BUTTON);
+		waitForElementClickAble(FacebookLoginPageUI.CREATE_NEW_ACCOUNT_BUTTON);
+		clickToElement(FacebookLoginPageUI.CREATE_NEW_ACCOUNT_BUTTON);
 	}
 
 	public boolean isEmailAddressTextboxDisplayed() {
-		waitForElementVisible(driver, FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);
-		return isElementDisplayed(driver, FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);
+		waitForElementVisible(FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);
+		return isElementDisplayed(FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);
 		
 	}
 
 	public void enterToEmailAddressTextbox(String emailAddress) {
-      waitForElementVisible(driver, FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);		
-      senkeyToElement(driver, FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX, emailAddress);
+      waitForElementVisible(FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX);		
+      senkeyToElement(FacebookLoginPageUI.EMAIL_ADDRESS_TEXTBOX, emailAddress);
 	}
 
 	public boolean isConfirmEmailAddressTextboxDisplayed() {
-		return isElementDisplayed(driver, FacebookLoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
+		return isElementDisplayed(FacebookLoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
 	}
 
 	public void clickCloseIconAtRegisterForm() {
-		clickToElement(driver, FacebookLoginPageUI.CLOSE_ICON);
+		clickToElement(FacebookLoginPageUI.CLOSE_ICON);
 		
 	}
 
 	public boolean isConfirmEmailAddressTextboxUndisplayed() {
-		return isElementUndisplayed(driver, FacebookLoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
+		return isElementUndisplayed(FacebookLoginPageUI.CONFIRM_EMAIL_ADDRESS_TEXTBOX);
 	}
 	
 	

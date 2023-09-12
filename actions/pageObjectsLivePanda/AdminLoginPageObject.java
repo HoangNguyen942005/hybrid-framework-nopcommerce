@@ -10,23 +10,24 @@ public class AdminLoginPageObject extends BasePage {
 	WebDriver driver;
 
 	public AdminLoginPageObject(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public void inputToUsernameTextbox(String adminUserName) {
-		waitForElementVisible(driver, AdminLoginPageUI.ADMIN_USERNAME);
-		senkeyToElement(driver, AdminLoginPageUI.ADMIN_USERNAME, adminUserName);
+		waitForElementVisible(AdminLoginPageUI.ADMIN_USERNAME);
+		senkeyToElement(AdminLoginPageUI.ADMIN_USERNAME, adminUserName);
 	}
 
 	public void inputToPasswordTextbox(String adminPassword) {
-		waitForElementVisible(driver, AdminLoginPageUI.ADMIN_PASSWORD);
-		senkeyToElement(driver, AdminLoginPageUI.ADMIN_PASSWORD, adminPassword);
+		waitForElementVisible(AdminLoginPageUI.ADMIN_PASSWORD);
+		senkeyToElement(AdminLoginPageUI.ADMIN_PASSWORD, adminPassword);
 		
 	}
 
 	public pageObjectsLivePanda.AdminDashboardPageObject clickToLoginButton() {
-		waitForElementClickAble(driver, AdminLoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
+		waitForElementClickAble(AdminLoginPageUI.LOGIN_BUTTON);
+		clickToElement(AdminLoginPageUI.LOGIN_BUTTON);
 		return PageGeneratorManager.getAdminLivePandaDashboardPage(driver);
 	}
 

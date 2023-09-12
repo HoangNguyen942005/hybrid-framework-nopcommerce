@@ -9,12 +9,13 @@ public class AdminPostSearchPO extends BasePage{
 	private WebDriver driver;
 
 	public AdminPostSearchPO(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public AdminPostAddNewPO clickToAddNewButton() {
-		waitForElementClickAble(driver, AdminPostSearchPageUI.ADD_NEW_BUTTON);
-		clickToElement(driver, AdminPostSearchPageUI.ADD_NEW_BUTTON);
+		waitForElementClickAble(AdminPostSearchPageUI.ADD_NEW_BUTTON);
+		clickToElement(AdminPostSearchPageUI.ADD_NEW_BUTTON);
 		return PageGeneratorManager.getAdminPostAddNewPage(driver);
 	}
 

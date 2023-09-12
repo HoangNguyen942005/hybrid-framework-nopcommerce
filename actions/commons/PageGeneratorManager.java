@@ -14,6 +14,13 @@ import pageObjects.nopCommerce.user.UserRewardPointPageObject;
 
 public class PageGeneratorManager {
 	
+// private WebDriver driver;
+//     
+//     public PageGeneratorManager(WebDriver driver) {
+//    	
+//    	 this.driver = driver;
+//     }
+	
     public static UserHomePageObject getUserHomePage(WebDriver driver) {
     	return new UserHomePageObject(driver);
     }

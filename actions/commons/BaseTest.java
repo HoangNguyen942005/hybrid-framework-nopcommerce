@@ -8,7 +8,6 @@ import java.util.Random;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
-import org.joda.time.DateTimeZone;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -21,23 +20,23 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	private WebDriver driver;
-    protected final Log log;
-   
-    @BeforeSuite
-    public void initBeforeSuite() {
-    	deleteAllureReport();
-    }
-    
-    protected BaseTest() {
-    	log = LogFactory.getLog(getClass());
-    }
-    
-    public WebDriver getDriverInstance() {
-    	return this.driver;
-    }
-    
+	protected final Log log;
+
+	@BeforeSuite
+	public void initBeforeSuite() {
+		deleteAllureReport();
+	}
+
+	protected BaseTest() {
+		log = LogFactory.getLog(getClass());
+	}
+
+	public WebDriver getDriverInstance() {
+		return this.driver;
+	}
+
 	protected WebDriver getBrowserDriver(String browserName) {
-		
+
 		if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
@@ -72,10 +71,39 @@ public class BaseTest {
 		}
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
-		driver.get(appUrl);
+	//	driver.get(getEnvironmentUrl(appUrl));
+		driver.get(appUrl); // để chạy Level 23
 		return driver;
 	}
-	
+
+	protected String getEnvironmentUrl(String environmentName) {
+		String envUrl = null;
+		EnvironmentList environment = EnvironmentList.valueOf(environmentName.toUpperCase());
+
+		switch (environment) {
+		case DEV:
+			envUrl = "https://demo.nopcommerce.com/";
+			break;
+		case TESTING:
+			envUrl = "https://testing.nopcommerce.com/";
+			break;
+		case STAGING:
+			envUrl = "https://staging.nopcommerce.com/";
+			break;
+		case PRE_PRO:
+			envUrl = "https://pre-prod.nopcommerce.com/";
+			break;
+		case PRO:
+			envUrl = "https://prod.nopcommerce.com/";
+			break;
+
+		default:
+			envUrl = null;
+			break;
+		}
+		return envUrl;
+	}
+
 	protected void closeBrowserDriver() {
 		String cmd = null;
 		try {
@@ -124,7 +152,7 @@ public class BaseTest {
 			}
 		}
 	}
-	
+
 	protected boolean verifyTrue(boolean condition) {
 		boolean pass = true;
 		try {
@@ -168,7 +196,7 @@ public class BaseTest {
 		}
 		return pass;
 	}
-	
+
 	public void deleteAllureReport() {
 		try {
 			String pathFolderDownload = GlobalConstants.PROJECT_PATH + "/allure-json";
@@ -188,7 +216,7 @@ public class BaseTest {
 		Random rand = new Random();
 		return rand.nextInt(99999);
 	}
-	
+
 	protected String getCurrentDate() {
 		DateTime nowUTC = new DateTime();
 		int day = nowUTC.getDayOfMonth();
@@ -211,7 +239,7 @@ public class BaseTest {
 
 	protected String getCurrentYear() {
 		DateTime now = new DateTime();
-		return  String.valueOf(now.getYear()); 
+		return String.valueOf(now.getYear());
 	}
 
 	protected String getCurrentDay() {

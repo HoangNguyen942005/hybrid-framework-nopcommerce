@@ -47,31 +47,31 @@ public class Level_21_Manage_Data_External extends BaseTest {
 		log.info("Register - Step 01: Navigate to Register page");
 		registerPage = homePage.openRegisterPage();
 		
-		registerPage.clickToRadioButtonByLabel(driver, "Female");
+		registerPage.clickToRadioButtonByLabel("Female");
         
 		log.info("Register - Step 02 : Enter to Firstname Textbox with value is '" + firstName + "'");
-		registerPage.inputToTextboxByID(driver,"FirstName", firstName);
+		registerPage.inputToTextboxByID("FirstName", firstName);
 		
 		log.info("Register - Step 03 : Enter to Lastname Textbox with value is '" + lastName + "'");
-		registerPage.inputToTextboxByID(driver,"LastName", lastName);
+		registerPage.inputToTextboxByID("LastName", lastName);
 		
-		registerPage.selectToDropdownByName(driver, "DateOfBirthDay", date);
-		registerPage.selectToDropdownByName(driver, "DateOfBirthMonth", month);
-		registerPage.selectToDropdownByName(driver, "DateOfBirthYear", year);
+		registerPage.selectToDropdownByName("DateOfBirthDay", date);
+		registerPage.selectToDropdownByName("DateOfBirthMonth", month);
+		registerPage.selectToDropdownByName("DateOfBirthYear", year);
 		
 		log.info("Register - Step 04 : Enter to Email Textbox with value is '" + emailAddress + "'");
-		registerPage.inputToTextboxByID(driver,"Email", emailAddress);
+		registerPage.inputToTextboxByID("Email", emailAddress);
 		
-		registerPage.clickToCheckboxByLabel(driver, "Newsletter");
+		registerPage.clickToCheckboxByLabel("Newsletter");
 		
 		log.info("Register - Step 05 : Enter to Password Textbox with value is '" +password + "'");
-		registerPage.inputToTextboxByID(driver,"Password", password);
+		registerPage.inputToTextboxByID("Password", password);
 		
 		log.info("Register - Step 06 : Enter to Confirm Pasword Textbox with value is '" +password + "'");
-		registerPage.inputToTextboxByID(driver,"ConfirmPassword", password);
+		registerPage.inputToTextboxByID("ConfirmPassword", password);
 		
 		log.info("Register - Step 07 : Click to 'Register' Button");
-		registerPage.clickToButtonByText(driver, "Register");
+		registerPage.clickToButtonByText("Register");
 
 		log.info("Register - Step 08 : Verify Register Success Message");
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
@@ -92,7 +92,7 @@ public class Level_21_Manage_Data_External extends BaseTest {
 		loginPage.inputToPasswordTextbox(password);
 
 		log.info("Login - Step 04: Navigate to Login page");
-		loginPage.clickToButtonByText(driver, "Log in");
+		loginPage.clickToButtonByText("Log in");
 		homePage = PageGeneratorManager.getUserHomePage(driver);
 		
 		log.info("Login - Step 05: Verify 'My account' link is displayed");
@@ -108,13 +108,13 @@ public class Level_21_Manage_Data_External extends BaseTest {
 		Assert.assertTrue(customerInfoPage.isCustomerInfoPageDisplayed());
 		
 		log.info("My Account - Step 03: Verify 'First Name ' value is correctly");
-		Assert.assertEquals(customerInfoPage.getTextboxValueByID(driver, "FirstName"), firstName);
+		Assert.assertEquals(customerInfoPage.getTextboxValueByID("FirstName"), firstName);
 		
 		log.info("My Account - Step 04: Verify 'Last Name ' value is correctly");
-		Assert.assertEquals(customerInfoPage.getTextboxValueByID(driver, "LastName"), lastName);
+		Assert.assertEquals(customerInfoPage.getTextboxValueByID("LastName"), lastName);
 		
 		log.info("My Account - Step 05: Verify 'Email ' value is correctly");
-		Assert.assertEquals(customerInfoPage.getTextboxValueByID(driver, "Email"), emailAddress);
+		Assert.assertEquals(customerInfoPage.getTextboxValueByID("Email"), emailAddress);
 	}
 	
 	@AfterClass(alwaysRun = true)

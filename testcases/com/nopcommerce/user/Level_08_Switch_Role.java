@@ -52,10 +52,10 @@ public class Level_08_Switch_Role extends BaseTest {
 		userCustomerInfoPage = userHomePage.openMyAccountPage();
 		
 		// Customer Info click log out -> Home Page
-		userHomePage = userCustomerInfoPage.clickToLogOutLinkAtUserPage(driver);
+		userHomePage = userCustomerInfoPage.clickToLogOutLinkAtUserPage();
 		
 		// User Home Page -> Open Admin Page -> Login Page (Admin)
-		userHomePage.openPageUrl(driver, GlobalConstants.ADMIN_PAGE_URL);
+		userHomePage.openPageUrl(GlobalConstants.ADMIN_PAGE_URL);
 	    adminLoginpage = PageGeneratorManager.getAdminLoginPage(driver);
 	      
 	      // Login as Admin role
@@ -63,13 +63,13 @@ public class Level_08_Switch_Role extends BaseTest {
 	      Assert.assertTrue(adminDashboardPage.isDashboardHeaderDisplayed());
 	      
 	      // Dashboard Page -> Click logout -> Login Page (Admin)
-	      adminLoginpage = adminDashboardPage.clickToLogOutLinkAtAdminPage(driver);
+	      adminLoginpage = adminDashboardPage.clickToLogOutLinkAtAdminPage();
 	}
 
 	@Test
 	public void User_02_Admin_To_User() {
       // Login Page (Admin)
-		adminLoginpage.openPageUrl(driver, GlobalConstants.PORTAL_PAGE_URL);
+		adminLoginpage.openPageUrl(GlobalConstants.PORTAL_PAGE_URL);
 		userHomePage = PageGeneratorManager.getUserHomePage(driver);
 		
 		// Home Page -> Login page (User)

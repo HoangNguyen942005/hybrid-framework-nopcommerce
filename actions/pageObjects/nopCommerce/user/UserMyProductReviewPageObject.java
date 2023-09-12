@@ -8,6 +8,7 @@ public class UserMyProductReviewPageObject extends BasePage {
 	 WebDriver driver;
 
 		public UserMyProductReviewPageObject(WebDriver driver) {
+			super(driver); 
 			this.driver = driver;
 		}
 }

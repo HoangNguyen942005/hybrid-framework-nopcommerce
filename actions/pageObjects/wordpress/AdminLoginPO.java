@@ -10,23 +10,24 @@ public class AdminLoginPO extends BasePage{
 	private WebDriver driver;
 
 	public AdminLoginPO(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public void enterToUsernameTextbox(String adminUsername) {
-		waitForElementVisible(driver, AdminLoginPageUI.USERNAME_TEXTBOX);
-		senkeyToElement(driver, AdminLoginPageUI.USERNAME_TEXTBOX, adminUsername);
+		waitForElementVisible(AdminLoginPageUI.USERNAME_TEXTBOX);
+		senkeyToElement(AdminLoginPageUI.USERNAME_TEXTBOX, adminUsername);
 	}
 
 	public void enterToPasswordTextbox(String adminPassword) {
-		waitForElementVisible(driver, AdminLoginPageUI.PASSWORD_TEXTBOX);
-		senkeyToElement(driver, AdminLoginPageUI.PASSWORD_TEXTBOX, adminPassword);
+		waitForElementVisible(AdminLoginPageUI.PASSWORD_TEXTBOX);
+		senkeyToElement(AdminLoginPageUI.PASSWORD_TEXTBOX, adminPassword);
 		
 	}
 
 	public AdminDashBoardPO clickToLoginButton() {
-	waitForElementClickAble(driver, AdminLoginPageUI.LOGIN_BUTTON);
-	clickToElement(driver, AdminLoginPageUI.LOGIN_BUTTON);
+	waitForElementClickAble(AdminLoginPageUI.LOGIN_BUTTON);
+	clickToElement(AdminLoginPageUI.LOGIN_BUTTON);
 	return PageGeneratorManager.getAdminDashBoardPage(driver);
 	}
 }

@@ -14,12 +14,13 @@ public class ProductPageObject extends BasePage {
 	WebDriver driver;
 
 	public ProductPageObject(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public void selectItemInProductSortDropdown(String textItem) {
-		waitForElementClickAble(driver, ProductPageUI.PRODUCT_CONTAINER_DROPDOWN);
-		selectItemInDefaultDropdown(driver, ProductPageUI.PRODUCT_CONTAINER_DROPDOWN, textItem);
+		waitForElementClickAble(ProductPageUI.PRODUCT_CONTAINER_DROPDOWN);
+		selectItemInDefaultDropdown(ProductPageUI.PRODUCT_CONTAINER_DROPDOWN, textItem);
 	}
 
 	public boolean isProductNameSortByAscending() {
@@ -27,7 +28,7 @@ public class ProductPageObject extends BasePage {
 		ArrayList<String> productUIList = new ArrayList<String>();
 
 		// Lấy ra hết tất cả các text product name
-		List<WebElement> productNameText = getListWebElement(driver, ProductPageUI.PRODUCT_NAME_TEXT);
+		List<WebElement> productNameText = getListWebElement(ProductPageUI.PRODUCT_NAME_TEXT);
 
 		// Dùng vòng lặp để get text và add vào ArrayList trên
 		for (WebElement productName : productNameText) {
@@ -54,7 +55,7 @@ public class ProductPageObject extends BasePage {
 		ArrayList<String> productUIList = new ArrayList<String>();
 
 		// Lấy ra hết tất cả các text product name
-		List<WebElement> productNameText = getListWebElement(driver, ProductPageUI.PRODUCT_NAME_TEXT);
+		List<WebElement> productNameText = getListWebElement(ProductPageUI.PRODUCT_NAME_TEXT);
 
 		// Dùng vòng lặp để get text và add và ArrayList trên
 		for (WebElement productName : productNameText) {
@@ -80,7 +81,7 @@ public class ProductPageObject extends BasePage {
 
 	public boolean isProductPriceSortByAscending() {
 		ArrayList<Float> productUIList = new ArrayList<Float>();
-		List<WebElement> productPriceText = getListWebElement(driver, ProductPageUI.PRODUCT_PRICE_TEXT);
+		List<WebElement> productPriceText = getListWebElement(ProductPageUI.PRODUCT_PRICE_TEXT);
 		for (WebElement productPrice : productPriceText) {
 			productUIList.add(Float.parseFloat(productPrice.getText().replace("$", "")));
 		}
@@ -97,7 +98,7 @@ public class ProductPageObject extends BasePage {
 
 	public boolean isProductPriceSortByDescending() {
 				ArrayList<Float> productUIList = new ArrayList<Float>();
-				List<WebElement> productPriceText = getListWebElement(driver, ProductPageUI.PRODUCT_PRICE_TEXT);
+				List<WebElement> productPriceText = getListWebElement(ProductPageUI.PRODUCT_PRICE_TEXT);
 
 				for (WebElement productPrice : productPriceText) {
 					productUIList.add(Float.parseFloat(productPrice.getText().replace("$", "")));

@@ -76,66 +76,66 @@ public class Level_09_Dynamic_Locator extends BaseTest {
 		// link/ button)
 
 		// Customer Infor -> Address
-		addressPage = customerInfoPage.openAddresspage(driver);
+		addressPage = customerInfoPage.openAddresspage();
 
 		// Address -> My Product Review
-		myProductReviewPage = addressPage.openMyProductReviewPage(driver);
+		myProductReviewPage = addressPage.openMyProductReviewPage();
 
 		// My Product Review -> Reward Point
-		rewardPointPage = myProductReviewPage.openRewardPoint(driver);
+		rewardPointPage = myProductReviewPage.openRewardPoint();
 
 		// Reward Point -> Address
-		addressPage = rewardPointPage.openAddresspage(driver);
+		addressPage = rewardPointPage.openAddresspage();
 
 		// Address -> Reward Point
-		rewardPointPage = addressPage.openRewardPoint(driver);
+		rewardPointPage = addressPage.openRewardPoint();
 
 		// Reward Point -> My Product Review
-		myProductReviewPage = rewardPointPage.openMyProductReviewPage(driver);
+		myProductReviewPage = rewardPointPage.openMyProductReviewPage();
 	}
 	
 	@Test
 	public void User_03_Dynamic_Page_01() {
 		// My Product Review -> Reward Point
-		rewardPointPage = (UserRewardPointPageObject) myProductReviewPage.openPagesAtMyAccoutByName(driver, "Reward points");
+		rewardPointPage = (UserRewardPointPageObject) myProductReviewPage.openPagesAtMyAccoutByName("Reward points");
 
 		// Reward Point -> Address
-		addressPage = (UserAddressPageObject) rewardPointPage.openPagesAtMyAccoutByName(driver, "Addresses");
+		addressPage = (UserAddressPageObject) rewardPointPage.openPagesAtMyAccoutByName("Addresses");
 
 		// Address -> Reward Point
-		rewardPointPage = (UserRewardPointPageObject) addressPage.openPagesAtMyAccoutByName(driver, "Reward points");
+		rewardPointPage = (UserRewardPointPageObject) addressPage.openPagesAtMyAccoutByName("Reward points");
 
 		// Reward Point -> My Product Review
-		myProductReviewPage = (UserMyProductReviewPageObject) rewardPointPage.openPagesAtMyAccoutByName(driver, "My product reviews");
+		myProductReviewPage = (UserMyProductReviewPageObject) rewardPointPage.openPagesAtMyAccoutByName("My product reviews");
 	   
 		// My Product Review -> Customer Infor
-		customerInfoPage = (UserCustomerInfoPageObject) myProductReviewPage.openPagesAtMyAccoutByName(driver, "Customer info");
+		customerInfoPage = (UserCustomerInfoPageObject) myProductReviewPage.openPagesAtMyAccoutByName("Customer info");
 	}
 	
 	@Test
 	public void User_03_Dynamic_Page_02() {
 		// Customer Infor -> My Product Review
-		customerInfoPage.openPagesAtMyAccoutByPageName(driver, "My product reviews");
+		customerInfoPage.openPagesAtMyAccoutByPageName("My product reviews");
 		myProductReviewPage = PageGeneratorManager.getUserMyProductReviewPage(driver);
 		
 		// My Product Review -> Reward Point
-		myProductReviewPage.openPagesAtMyAccoutByPageName(driver, "Reward points");
+		myProductReviewPage.openPagesAtMyAccoutByPageName("Reward points");
 		 rewardPointPage = PageGeneratorManager.getUserRewardPointPage(driver);
 		 
 		// Reward Point -> Address
-		 rewardPointPage.openPagesAtMyAccoutByPageName(driver, "Addresses");
+		 rewardPointPage.openPagesAtMyAccoutByPageName("Addresses");
 		 addressPage = PageGeneratorManager.getUserAddressPage(driver);
 		 
 		// Address -> Reward Point
-		 addressPage.openPagesAtMyAccoutByPageName(driver, "Reward points");
+		 addressPage.openPagesAtMyAccoutByPageName("Reward points");
 		 rewardPointPage = PageGeneratorManager.getUserRewardPointPage(driver);
 		 
 		// Reward Point -> My Product Review
-		 rewardPointPage.openPagesAtMyAccoutByPageName(driver, "My product reviews");
+		 rewardPointPage.openPagesAtMyAccoutByPageName("My product reviews");
 		 myProductReviewPage = PageGeneratorManager.getUserMyProductReviewPage(driver);
 		 
 		// My Product Review -> Customer Infor
-		  myProductReviewPage.openPagesAtMyAccoutByPageName(driver, "Customer info");
+		  myProductReviewPage.openPagesAtMyAccoutByPageName("Customer info");
 		  customerInfoPage = PageGeneratorManager.getUserCustomerInfoPage(driver);
 	}
 

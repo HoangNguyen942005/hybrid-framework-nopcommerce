@@ -56,7 +56,7 @@ public class Level_10_Tech_Panda_Exercise extends BaseTest{
     
     @Test
     public void TC_02_Register_To_Admin () {
-    	registerPage.openPageUrl(driver, GlobalConstants.LIVE_PANDA_ADMIN_LOGIN_PAGE);
+    	registerPage.openPageUrl(GlobalConstants.LIVE_PANDA_ADMIN_LOGIN_PAGE);
     	adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
     	
     	adminDashBoardPage = adminLoginPage.loginAsAdmin(adminUserName, adminPassword);

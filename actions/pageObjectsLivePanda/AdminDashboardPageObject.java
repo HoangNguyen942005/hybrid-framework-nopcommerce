@@ -10,11 +10,12 @@ public class AdminDashboardPageObject extends BasePage {
 	WebDriver driver;
 
 	public AdminDashboardPageObject(WebDriver driver) {
+		super(driver); 
 		this.driver = driver;
 	}
 
 	public void dissMissAlert() {
-		waitForElementClickAble(driver, AdminDashboardPageUI.ALERT);
-		clickToElement(driver, AdminDashboardPageUI.ALERT);
+		waitForElementClickAble(AdminDashboardPageUI.ALERT);
+		clickToElement(AdminDashboardPageUI.ALERT);
 	}
 }
